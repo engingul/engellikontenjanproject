@@ -1,4 +1,4 @@
-package com.engelli.kontenjan;
+﻿package com.engelli.kontenjan;
 
 import java.awt.EventQueue;
 import java.awt.Font;
@@ -203,7 +203,7 @@ public class EngelliKontenjan {
 	private static double roundFloor(double value) {
 		return Math.floor(value);
 	}
-
+        // Numerik hesaplama yapan methoddur
 	public boolean isNumerical(String value) {
 		int i = 0;
 		if (value.length() > 0) {
